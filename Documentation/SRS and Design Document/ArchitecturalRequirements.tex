@@ -1,1 +1,51 @@
+\documentclass{article}
 
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+
+
+\begin{document}
+
+
+
+\section{Architectural Requirements}
+
+	\subsection{The system will be designed using the n-tier architecture (Specifically 3-tier), where the system is divided into three layers}
+  \begin{itemize}
+    \item 1. Presentation Layer
+    \item 2. Application Layer
+    \item 3. Data Layer
+  \end{itemize}
+  \subsection{Each layer will be modifiable without having to change the entire application. As a result of the aforementioned, maintenance and adding extra functionality is easier. Overall complexity of code over all layers will be reduced thus making the layers reusable in other applications.By using this architecture system will allow the different members in our teams to modify different layers without interference. It is possible to deploy each layer (Specifically the data and application layers) over multiple different locations for better reliability and performance.}
+  
+  \section{Presentation Layer}
+    \subsection{This is the layer the user will be interacting with. It encompasses the actual apps (Android, iOS and web), and any interactions that the users have with them.}
+    \subsection{The presentation layer include:  }
+  \begin{itemize}
+    \item What to display and when to display it, it’s the logic behind the webpages and the control between access from one to another.
+  \end{itemize}
+  
+  \section{Application Layer}
+    \subsection{The application layer contains all the business logic of the system - it makes logical decisions based on the interactions from the presentation layer and the data from the data layer.}
+    \subsection{The decisions made by this layer include:}
+  \begin{itemize}
+    \item Allow admin users to be able to add/ remove client projects and assign these to employees who will be working on these projects.
+    \item Automatically update calendars of the employees.
+    \item Crosscheck projects before assigning projects to an employee.
+    \item Server communication over the internet.
+    \item Scheduling Assistant calculations. 
+    \item Limit an employee from being able to edit the projects that have been pre-populated.
+    \item Allow an employee  to add other events to his/ her calendar if these do not clash with the pre-populated events.
+    \item Session management.
+  \end{itemize}
+  
+  \section{Data Layer}
+    \subsection{The data layer is where the data and information used by the application layer is stored. This information includes:}
+  \begin{itemize}
+    \item Recommended time slots where all employees are available. 
+    \item Server storage with mongodb
+    \item View individual employee calendar and assigned projects. 
+  \end{itemize}
+  
+\end{document}
