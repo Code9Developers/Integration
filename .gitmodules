@@ -13,3 +13,6 @@
 [submodule "BackEnd-SubRepo"]
 	path = BackEnd-SubRepo
 	url = https://github.com/Code9Developers/Back-End.git
+[submodule "FrontEnd-SubRepo"]
+	path = FrontEnd-SubRepo
+	url = https://github.com/Code9Developers/Front-End.git
