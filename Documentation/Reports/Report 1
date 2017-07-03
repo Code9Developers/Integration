@@ -1,0 +1,128 @@
+\documentclass{article}
+ \usepackage{hyperref}
+\usepackage{graphicx}
+
+\begin{document}
+    
+    \begin{center}
+        \includegraphics{Graphics/uplogo.jpg}
+        
+        {\Huge 
+        2017 COS 301 Project \linebreak
+        Report 1 \linebreak 
+        \par}
+        
+        {\Huge
+        TEAM CODE 9
+        \linebreak
+        \par}
+        
+        \begin{LARGE}
+            Seonin David
+            \linebreak
+            \linebreak
+            Joshua Moodley
+            \linebreak
+            \linebreak
+            Jaques Smulders
+            \linebreak
+            \linebreak
+            Jordan Daubinet
+            \linebreak
+            \linebreak
+            Nicaedin Suklal
+        \end{LARGE}
+    \end{center}
+    
+    \begin{figure}[b]
+    \centering
+        \includegraphics[width=8cm]{Graphics/kpmgLogo.jpg}
+    \end{figure}
+    
+    \newpage
+    
+    \section{Introduction}
+        \begin{flushleft}
+        This report must contain a full summary of the group’s activities, an individual contribution of the group members and the objectives and challenges faced by the group in the past two weeks.
+        \end{flushleft}
+    
+    \section{Summary of group Activities}
+        \begin{flushleft}
+            During the last 2 weeks of the project the teams activity has been high before exams and low during exams. We have faced the difficulty of time and priority management and dealt with it accordingly. 
+            
+            When the team was formed We fist weighed the pro's and cons of each project and cam to a consensus on which ones we would bid for. Once tenders were given, we had large meeting where we created our rough tenders where formed by brain storming ideas for technologies, architectures, functionality, methodologies and project management activities for the project. We went home to refine these drafts and by using slack we communicated and worked until our final drafts where done.
+            
+            From the day we were allocated this project, the team started researching information surrounding the task and the technologies which could be used to solve it. We cane up with our rough architectural requirements and collaborated together to get a good understanding of what was requested in the tender and an understanding of what we were capable of developing. 
+            
+            following this we met with our client and got a better understanding of the necessary functional requirements. we recorded our meeting and analyzed our recording to map out the functional requirements which are currently in our Software Requirements Specification. We then created our use cases and deployment diagram and finished our final SRS document which we presented in our first demo.
+            
+            Following this exams started and we had short break in working on the project.
+            
+            During the exam period we have discussed our SRS and current architectural design, had and have had a few meetings in which we have further refined our system and sub system  descriptions and allocated subsystem responsibilities to members. 
+            
+            We are currently working on our coding standards and technologies choices as well as an integration specification sheet to describe the expected communication between subsystems.
+        \end{flushleft}
+    
+    \pagebreak 
+    \section{Jordan Daubinet}
+    \subsection{Contributions}
+        \begin{flushleft}
+            Throughout the last two weeks, from the beginning of the project until now I have been the project leader and in charge of the project management. During this management I have been the contact person between the team, our project manager and the cos 301 lecturers.
+            
+            Since this team was formed, I have booked and created meeting dates during which we organized our tenders for all projects we appealed for, I have created and organized our srs for the first booking and we have had our first official scrum meeting. I organized the meeting with kpmg and collaborated on the tenders. My contribution to the tenders was most to do with creating of the Active days tender however i had a contribution to our technology and architecture for the kpmg tender. 
+            
+            For the Software requirements Specification, I worked on and created the Purpose and scope for the introduction, I created the constraints, I collaborated on the functional and non-functional requirements and I collaborated on the Tracibility matrix.
+        \end{flushleft}
+    \subsection{Challenges}
+        \begin{flushleft}
+            I have yet to face a very difficult challenge, team management and responsibility is new to me and in a way the extra responsibility adds further challenge to the project, however I am currently enjoying the responsibility and benefiting from it more than anything else.
+        \end{flushleft}  
+        
+    \section{Seonin David}
+    \subsection{Contributions}
+        \begin{flushleft}
+        For the documentation part of our project I wrote out most of the functional requirements along with Jordan and also finalized it with him.I provided the structure of the SRS that we used. I helped put the final SRS document together. Throughout the entire phase of creating the SRS all team members helped in each part of the document and I don’t think anyone did not do what was required of them.In terms of project management, I created and assigned issues for this phase and put Demo 1 as the milestone. Each team member was tasked with moving their issues to relevant phases as well as closing their issues once they were done. I think we collaborated well as a team so far and we have already started splitting up work for the implementation phase and also finalising our quality requirements.
+        \end{flushleft} 
+        
+    \subsection{Challenges}
+        \begin{flushleft}
+        The only challenge that I could see was the time frame.We had to balance writing tests and doing assignments with completing the SRS. I think my team and I handled it well even though everything wasn't perfect
+        \end{flushleft} 
+        
+    \section{Joshua Moodely}
+    \subsection{Contributions}
+        \begin{flushleft}
+        With regards to the last two weeks. I have assisted Jordan with the project management of our project. From helping him with the updating our existing repo to a Git Organisation, to helping with meetings, where I create the minutes. I also provide resources to the team for their parts in conjunction with working with my own parts. Prior to that, I assisted in the SRS document where I pointed out a few of the use cases needed for the system along with some functional requirements. I also helped with identifying and laying out the architectural design of the system with Nicaedin. Overall between now and then, I’ve jumped between working on the project and more helping with setting up the little project management bits as I am fairly competent in that area.
+        \end{flushleft} 
+        
+    \subsection{Challenges}
+        \begin{flushleft}
+        As for the challenges, right now my only concern is finding the time to work on the project as our time frame is short for a fairly large system to be done. Other than that from having exams and other obligations our team has handled the project well up to now. I just hope that the small project management parts are set up asap so we can progress to our next stage of development. That being the documentation and meeting dates etc.
+        \end{flushleft} 
+        
+    \section{Jaques Smulders}
+    \subsection{Contributions}
+        \begin{flushleft}
+        For our documentation phase, I helped lay out the functional use cases, and constructed the corresponding diagrams. Furthermore, I helped in finalising and editing parts of the SRS.
+        I helped identify requirements and researched possible technologies to be implemented for out tender and first demo. 
+        Addiotinally, I constructed the deployment diagram for ouu tender.
+        \end{flushleft} 
+        
+    \subsection{Challenges}
+        \begin{flushleft}
+        Group work wasn't a probelm this round, as all members were able to collaborate professionally and with ease.
+        However, challenges I faced that affected my performace, was the time constraint as a result of the last few assignmnets due in the week of the demo, as well as exams in the last week.
+        There were no challenges that affected me to the extent that I was unable to complete the work required of me, but definitely enough to put strain on my time management skills.
+        \end{flushleft} 
+        
+    \section{Nicaedin Suklal}
+    \subsection{Contributions}
+        \begin{flushleft}
+        During these last two weeks, Joshua and I have been trying to find technologies that we could use for the frontend development of the application itself. We have come up with an idea and are currently pursuing it. I have also helped compile our list of functional and non-functional requirements, as well as assisted with the overall planning of the application. I helped create our SRS document and attended the meetings where we threw aroud ideas on how go about creating the application. We have all done a fair amount of research when it comes to our assigned roles within the project.
+        \end{flushleft} 
+        
+    \subsection{Challenges}
+        \begin{flushleft}
+        The only challenge I have had up to this point has been time constraints as we do have exams and we do not have any time to work on this project. However, we have a fair amount of breathing room at the moment and thus should be able to start hammering out a working product.
+        \end{flushleft} 
+\end{document}
