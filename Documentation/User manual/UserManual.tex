@@ -1,0 +1,143 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{makecell}
+\usepackage[section]{placeins}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{User Manual}
+\fancyhead[C]{}
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[L]{Code 9}
+\fancyfoot[C]{}
+\fancyfoot[R]{Page \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\begin{document}
+	\begin{center}\thispagestyle{empty}
+		\includegraphics{Graphics/uplogo.jpg}
+		
+		{\Huge 
+			2017 COS 301 Project \linebreak
+			User Manual \linebreak 
+			\par}
+		
+		{\Huge
+			TEAM CODE 9
+			\linebreak
+			\par}
+		
+		\begin{LARGE}
+			Seonin David
+			\linebreak
+			\linebreak
+			Joshua Moodley
+			\linebreak
+			\linebreak
+			Jaques Smulders
+			\linebreak
+			\linebreak
+			Jordan Daubinet
+			\linebreak
+			\linebreak
+			Nicaedin Suklul
+		\end{LARGE}
+	\end{center}
+	
+	\begin{figure}[b]
+		\centering
+		\includegraphics[width=8cm]{Graphics/kpmgLogo.jpg}
+	\end{figure}
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+	This is the user manual for installing and setting up the project management system for KPMG.This manual contains instructions on how to download and install the server and database. This manual will also give you a basic understanding for how to create new employees and create projects.\linebreak\linebreak\textbf{This manual will currently not show you how to use the entire system because the system is still in pre-alpha}
+\section{MongoDB}
+\subsection{Inststalling MongoDB}
+	\begin{itemize}
+		\item Go to \url{ https://www.mongodb.com/download-center#community} and download MongoDB for your respective operating system.
+		\item Install MongoDB (It will probably be installed in PoogramFiles/Mongo)
+	\end{itemize}
+\subsection{Starting MongoDB}
+	\subsubsection{For Windows}
+		\begin{itemize}
+			\item Open command prompt
+			\item Type \textit{cd /}
+			\item Then navigate to the bin folder in the Mongo folder \linebreak (usually is \textit{cd C:/Program Files/MongoDB/Server/3.2/bin})
+			\item Type \textit{mongod}. MongoDB will now be running.
+			\item \textbf{Since our system is in pre-alpha we do not have an importable database as we are still doing testing and the database still contains dummy data therefore the DB you will be using is empty.}
+		\end{itemize}
+	
+\newpage
+\section{NodeJS}
+\subsection{Installing NodeJS}
+\begin{itemize}
+	\item GO to \url{https://nodejs.org/en/download/} and download NodeJS for your respective operating system.
+	\item Install NodeJS
+\end{itemize}
+
+\section{Running the system}
+	\subsection{Installing dependencies}
+		\begin{itemize}
+			\item Go to \url{https://github.com/Code9Developers/Back-End} and click on the\textbf{ Clone or Download } button, then click download ZIP to donwnload our repo.
+			
+			\item Unzip the repo and place it in a location that you would like to keep the system.
+			
+			\item Open command propmt (assuming windows) and navigate to the reopo until you in the folder with the package.json
+			
+			\item Then type \textit{npm install}. This will install all the packages required to run the system.
+		\end{itemize}
+		\subsection{Starting the server}
+			\begin{itemize}
+			\item After all the packages are installed, type \textbf{\textit{npm run dev}}.This will start the server (assuming MongoDB is still running).
+			
+			\item The server will now let you now that it is connected to the database and you can access the website on port 4000.
+			
+			\item To access the website type \textbf{\textit{https://localhost:4000}}
+		\end{itemize}
+\newpage
+
+\section{Using the System}
+The system is currently still in development but the core functionality can still be used.\textbf{Note that the routing authentication has been turned off, this is due to testing purposes but the functionality is there}
+
+	\subsection{Login page}
+	\begin{enumerate}
+		\item Request type: GET
+		\item URL: \url{https://localhost:4000/login} or \url{https://localhost:4000}
+	\end{enumerate}
+
+	\begin{flushleft}
+			This is the login page where a manager,administrator or employee can login and will be routed to the relevant page.
+	\end{flushleft}
+
+ 	\subsection{Admin Page}
+ 		\begin{enumerate}
+ 		\item Request type: GET
+ 		\item URL:\url{https://localhost:4000/admin} 
+ 	\end{enumerate}
+ 	\begin{flushleft}
+ 		On this page an Admin user will be allowed to create a new employee with all the relevant information. Once submit button is clicked a POST request will be sent to the server, the employee will then be stored in the users collection in the database. 
+ 	\end{flushleft}
+ 
+ \subsection{Project Creation Page}
+ 		\begin{enumerate}
+ 	\item Request type: GET
+ 	\item URL: \url{https://localhost:4000/project_creation}
+ \end{enumerate}
+
+On this page a manager can create the project.The manager will be required to enter all information relevant to the project. The manager will also have to select the number of employees that is required for the project.When the allocate employees button is clicked, the algorithm will then return the best suited employees for the project after taking many factors into account. The manager can then choose to remove employees from the project but this will have to go through the chain of command to get approved.After all the information is entered and the employees are selected. A POST request will then be sent to the server to store all the information in the database. After all the information is store the user will then be routed to the project view page where he/she can view all information regarding the project as well as insert information regarding the project.
+\end{document}
