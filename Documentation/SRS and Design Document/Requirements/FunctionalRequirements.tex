@@ -1,0 +1,98 @@
+\documentclass[]{article}
+
+% Packages
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[margin=1in]{geometry}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titletoc}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\usepackage{lmodern}
+\usepackage{sectsty}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Architectural Requirements}
+\fancyhead[C]{}
+\fancyhead[R]{Last revised: 10 August 2017}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[L]{Code 9}
+\fancyfoot[C]{}
+\fancyfoot[R]{Page \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\sectionfont{\fontfamily{lmss}\selectfont}
+\subsectionfont{\fontfamily{lmss}\selectfont}
+% TOC levels
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+% Title Page
+\begin{document}\thispagestyle{empty}\fontfamily{lmss}\selectfont	
+	\tableofcontents
+	\clearpage
+	\section{Functional Requirements}
+		\subsection{FR1: Employee Functions}
+			\begin{itemize}
+				\item \textbf{FR1.1}: An employee will be able to log in to their account on the system
+				\item \textbf{FR1.2}: An employee will be able to create their own profile with their        respective skills and previous work experience
+				\item \textbf{FR1.3}: An employees will receive a notification when they are assigned to a    newly created project 
+				
+				\item \textbf{FR1.4}: An Employee must be able to to view their currently assigned           project and view their past completed projects that where assigned        to them on their profile. 
+				
+				\item \textbf{FR1.5}: An employee will be able to add personal or other events to the        calendar their calender, that do not clash with any existing               projects they are currently assigned to. If a newly created event        does clash, an error will be displayed.  
+				
+				\item \textbf{FR1.6}: When an employee clicks on a project in the calendar, it will show     all the project details and a map of the clients location should be       displayed as well as directions to the client.
+				
+				\item \textbf{FR1.7}: An employees will not be able to remove a project that is assigned     to them from their calender.
+				
+				\item \textbf{FR1.8}: Employees should confirm whether they have attended training or not, this will be conformed with trainer.
+			\end{itemize}
+	
+	\subsection{FR2: Manager functions}
+	\begin{itemize}
+		\item \textbf{FR2.1}: A manager will be able to log in and create a project.
+		
+		\item \textbf{FR2.2}: A manager will be able to assign system recommended employees to a      newly created projects
+		
+		\item \textbf{FR2.3}: A manager will be able change employees if the manager is unhappy with     the recommendation by the system, pending director approval.
+		
+		\item \textbf{FR2.4}: A manager will be allowed to remove a project from the system, pending director approval
+		
+		\item \textbf{FR2.5}: A project manager will be able to view all projects that they are managing
+	\end{itemize}
+	
+
+	\subsection{FR3: System Functions}
+	\begin{itemize}
+		\item \textbf{FR3.1}: The system will assign employees to a project based
+		on their skill level and past project experience. 
+		
+		\item \textbf{FR3.2}: The system will find all the employees that have the required skills     for the job and give it to the manager as a recommendation.
+		
+		\item \textbf{FR3.3}: The system will only select employees if they are not already           assigned to a project.
+		
+		\item \textbf{FR3.4}: Employee data with skills and past work experience
+		will be entered on the system and updated after each project. 
+		
+		\item \textbf{FR3.5}: System will reassign another employee, pending 
+		approval, if an employee takes leave during the project.
+		
+		\item \textbf{FR3.6}: Every employee that is assigned to a project will get
+		the full project duration and details on their calendar. 
+		
+		\item \textbf{FR3.7}: The system should be able to provide the location of and direction      to the client to all employees assigned to the respective project
+		
+		\item \textbf{FR3.8}:The system will preload all employees training dates
+		at the beginning of the year. 
+		
+		
+		\item \textbf{FR3.9}: The system will preload all employees training dates at the beginning of the year.
+	\end{itemize}
+	
+	\end{document}
