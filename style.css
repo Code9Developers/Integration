@@ -1,0 +1,31 @@
+h1
+{
+    font-family: 'Nova Flat', cursive;
+}
+
+p
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+#project
+{
+    background-color: rgba(180, 180, 180, 0.6);
+    padding: 10px 15px 5px 15px;
+    border-radius: 3px;
+}
+
+h4
+{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.card
+{
+    padding: 10px;
+}
