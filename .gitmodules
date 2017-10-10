@@ -1,6 +1,0 @@
-[submodule "BackEnd_SR"]
-	path = BackEnd_SR
-	url = https://github.com/Code9Developers/Back-End.git
-[submodule "FrontEnd_SR"]
-	path = FrontEnd_SR
-	url = https://github.com/Code9Developers/Front-End.git
