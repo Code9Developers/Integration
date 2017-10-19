@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6caf456d-e75c-42c4-b41c-2b65f436044e" name="Default" comment="New landing page">
+    <list default="true" id="6caf456d-e75c-42c4-b41c-2b65f436044e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            <state relative-caret-position="307">
+              <caret line="134" column="69" lean-forward="false" selection-start-line="134" selection-start-column="69" selection-end-line="134" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -321,7 +321,7 @@
       <workItem from="1508315449414" duration="444000" />
       <workItem from="1508336536384" duration="635000" />
       <workItem from="1508345083082" duration="697000" />
-      <workItem from="1508386438827" duration="137000" />
+      <workItem from="1508386438827" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="Removed for gh-page">
       <created>1507628153021</created>
@@ -428,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508336751417</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added video link">
+      <created>1508386587074</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1508386587074</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16492000" />
+    <option name="totallyTimeSpent" value="16779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -538,7 +545,8 @@
     <MESSAGE value="Landing page: Added VDemo" />
     <MESSAGE value="Removed old files" />
     <MESSAGE value="New landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="New landing page" />
+    <MESSAGE value="Added video link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added video link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -597,8 +605,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        <state relative-caret-position="307">
+          <caret line="134" column="69" lean-forward="false" selection-start-line="134" selection-start-column="69" selection-end-line="134" selection-end-column="69" />
           <folding />
         </state>
       </provider>
