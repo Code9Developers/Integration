@@ -1,3 +1,5 @@
+# ARCHIVED 2017 COS 301 Project - No Longer Maintained
+
 # Integration
 >Here you will find our final product. Which has the merged back and front-end.
 
